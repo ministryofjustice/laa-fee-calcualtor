@@ -75,5 +75,12 @@
   "fields": {
     "name": "Evidence provision fee level"
   }
+},
+{
+  "model": "calculator.unit",
+  "pk": "HEARING",
+  "fields": {
+    "name": "Hearings"
+  }
 }
 ]
