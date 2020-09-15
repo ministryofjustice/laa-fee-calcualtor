@@ -212,6 +212,7 @@ PING_JSON_KEYS = {
     'commit_id_key': 'APP_GIT_COMMIT',
     'version_number_key': 'APPVERSION',
     'build_tag_key': 'APP_BUILD_TAG',
+    'build_branch_key': 'APP_BUILD_BRANCH',
 }
 
 HEALTHCHECKS = [

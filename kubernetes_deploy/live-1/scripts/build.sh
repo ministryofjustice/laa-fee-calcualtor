@@ -34,6 +34,7 @@ function _build() {
           --build-arg BUILD_DATE=$(date +%Y-%m-%dT%H:%M:%S%z) \
           --build-arg COMMIT_ID=$current_version \
           --build-arg BUILD_TAG=$docker_build_tag \
+          --build-arg BUILD_BRANCH=$current_branch \
           --pull \
           --tag ${docker_registry_tag} \
           --file Dockerfile .
