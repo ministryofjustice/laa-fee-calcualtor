@@ -1,5 +1,5 @@
 Django>=2.1,<2.3
-django-moj-irat==0.4
+django-moj-irat==0.6
 django-rest-swagger==2.2.0
 djangorestframework>=3.9.0,<3.10.0
 django-extended-choices==1.1.2
